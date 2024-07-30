@@ -25,7 +25,7 @@ n r - `will let you read a note from a list`
 
 n e - `will let you edit a note from a list`
 ### notes on n
-It is writen in pure posix shell.
+It is written in pure posix shell.
 
 It depends on the following:
 
@@ -35,7 +35,7 @@ It depends on the following:
 - `the $EDITOR variable must be set using export`
 
 ### config
-It can be configued to using any fuzzy finder, and any text editor, and reader as long as they support the same 
+It can be configured to using any fuzzy finder, and any text editor, and reader as long as they support the same 
 syntax as fzf, vi, and less to function, some examples could be:
 - dmenu
 - rofi
@@ -44,5 +44,5 @@ syntax as fzf, vi, and less to function, some examples could be:
 - emacs
 - kak
 
-The fuzzy finder is desided in the program, while the text editor is grabbed from your enviroment 
-vairables.
+The fuzzy finder is defined in the program, while the text editor is grabbed from your enviroment 
+variables.
